@@ -8,5 +8,5 @@ def Movie_view(request):
     if request.method == "POST":
         pass
     else:
-        fform = EmpForm()
-        return render(request, 'Emp.html', {'ffrom': fform})
+        cform = EmpForm()
+        return render(request, 'Emp.html', {'ffrom': cform})
